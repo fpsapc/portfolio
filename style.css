@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-image: url('background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 15px;
+}
+
+nav a {
+  color: #3A4A42;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+#toggler, label {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+  label {
+    display: inline-flex;
+  }
+  #toggler:checked ~ .menu {
+    max-height: 100vh;
+  }
+  .list {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+}
