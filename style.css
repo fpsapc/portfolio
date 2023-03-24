@@ -4,10 +4,17 @@
 }
 
 body {
+  font-family: 'Inter', sans-serif;
+  height: 100%;
+}
+
+.app-wrap {
   background-image: url('background.svg');
   background-repeat: no-repeat;
+  top: fixed;
   background-size: cover;
-  font-family: 'Inter', sans-serif;
+  padding-top: 20%;
+  height: 100%;
 }
 
 .container {
@@ -20,7 +27,7 @@ body {
 }
 
 h2 {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -96,7 +103,7 @@ label {
 }
 
 p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
