@@ -64,6 +64,17 @@ nav a {
   text-decoration: none;
 }
 
+.next-page {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  height: 30%;
+  left: 38%;
+  top: 60%;
+}
+
 .list {
   display: flex;
   list-style: none;
@@ -76,11 +87,11 @@ label {
 }
 
 .social {
-  display: flex;
+  display: inline-flex;
   position: relative;
   width: 80%;
   height: 30%;
-  left: 17%;
+  left: 16%;
   top: 20%;
 }
 
