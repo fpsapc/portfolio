@@ -121,6 +121,18 @@ p {
   top: 1%;
 }
 
+.fa-brands {
+  margin-left: 20px;
+}
+
+.fa-regular {
+  margin-left: 20px;
+}
+
+.fa-solid {
+  margin-left: 20px;
+}
+
 @media screen and (min-width: 375px) {
   .menu {
     width: 100%;
