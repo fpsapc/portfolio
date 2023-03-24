@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 body {
   background-image: url('background.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -30,18 +30,17 @@ h2 {
   flex-direction: column;
   position: relative;
   width: 80%;
-  height: 40%;
+  height: 35%;
   left: 10%;
-  top: 5%;
+  top: 8%;
 }
 
 .my-name {
-  color: #172B4D;
-  
+  color: #172b4d;
 }
 
 .career {
-  color: #36B37E;
+  color: #36b37e;
 }
 
 nav {
@@ -56,8 +55,12 @@ nav {
   padding: 15px;
 }
 
+a {
+  color: #505f79;
+}
+
 nav a {
-  color: #3A4A42;
+  color: #3a4a42;
   text-decoration: none;
 }
 
@@ -67,8 +70,32 @@ nav a {
   gap: 25px;
 }
 
-#toggler, label {
+#toggler,
+label {
   display: none;
+}
+
+.social {
+  display: flex;
+  position: relative;
+  width: 80%;
+  height: 30%;
+  left: 17%;
+  top: 20%;
+}
+
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #172b4d;
+  position: relative;
+  width: 80%;
+  height: 20%;
+  left: 10%;
+  top: 1%;
 }
 
 @media screen and (max-width: 650px) {
@@ -77,12 +104,15 @@ nav a {
     max-height: 0;
     overflow: hidden;
   }
+
   label {
     display: inline-flex;
   }
+
   #toggler:checked ~ .menu {
     max-height: 100vh;
   }
+
   .list {
     flex-direction: column;
     align-items: center;
