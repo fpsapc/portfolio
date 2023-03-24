@@ -19,6 +19,31 @@ body {
   text-align: center;
 }
 
+h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 80%;
+  height: 40%;
+  left: 10%;
+  top: 5%;
+}
+
+.my-name {
+  color: #172B4D;
+  
+}
+
+.career {
+  color: #36B37E;
+}
+
 nav {
   display: flex;
   flex-direction: row-reverse;
