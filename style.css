@@ -51,6 +51,15 @@ h2 {
   color: #36b37e;
 }
 
+.app-header {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2%;
+}
+
 nav {
   display: flex;
   flex-direction: row-reverse;
@@ -78,10 +87,9 @@ nav a {
   align-items: center;
   position: relative;
   width: 80%;
-  height: 30%;
-  align-items: center;
+  height: 20%;
   justify-content: center;
-  top: 60%;
+  top: 15%;
 }
 
 .list {
@@ -95,15 +103,16 @@ label {
   display: none;
 }
 
-.social {
-  display: inline-flex;
-  padding-top: 20%;
-  position: relative;
-  width: 80%;
-  height: 30%;
-  top: 20%;
-  align-items: center;
+.social ul {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-top: 10%;
+}
+
+.social ul li {
+  margin: 0 4px;
 }
 
 p {
