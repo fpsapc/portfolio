@@ -35,7 +35,7 @@ h2 {
   flex-direction: column;
   position: relative;
   width: 80%;
-  height: 50%;
+  height: 51%;
   left: 10%;
   top: 5%;
 }
@@ -199,9 +199,9 @@ p {
   flex-direction: column;
 }
 
-grid {
+.grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 1rem;
   padding: 1rem;
 }
