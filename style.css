@@ -71,6 +71,8 @@ nav {
 
 a {
   color: #505f79;
+  text-decoration: none;
+  margin-top: 0;
 }
 
 nav a {
@@ -87,6 +89,20 @@ nav a {
   height: 20%;
   justify-content: center;
   padding: 8%;
+}
+
+li {
+  align-items: center;
+  display: inline-block;
+  margin: 0;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .list {
@@ -160,16 +176,11 @@ p {
   }
 }
 
-.my-work {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
 #heading {
   width: 100%;
   color: #172b4d;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .work-item {
@@ -230,7 +241,7 @@ button:hover {
 }
 
 h3 {
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 500px;
   line-height: 2rem;
   text-align: center;
@@ -251,7 +262,7 @@ h3 {
 }
 
 .tech {
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 5px 3px;
   color: #3dc58c;
   border-radius: 5px;
@@ -267,25 +278,6 @@ h3 {
   font-family: Inter, sans-serif;
   color: #d2d2d2;
   border-radius: 5px;
-}
-
-a {
-  text-decoration: none;
-  margin-top: 0;
-}
-
-ul {
-  display: inline-block;
-  list-style: none;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  align-items: center;
-  display: inline-block;
-  margin: 0;
 }
 
 i:hover {
