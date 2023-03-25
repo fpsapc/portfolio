@@ -104,7 +104,6 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style: none;
   padding-top: 10%;
 }
 
@@ -201,6 +200,7 @@ p {
   background-color: #ebf0ee;
   flex-direction: column;
   border: 1px solid gray;
+  border-radius: 20px;
   margin: 1rem 1rem;
   text-align: center;
   padding: 2rem 1rem;
@@ -258,6 +258,8 @@ h3 {
 }
 
 .btn2 {
+  display: flex;
+  justify-content: center;
   background-color: #2aa874;
   align-items: center;
   padding: 0.5rem;
@@ -265,4 +267,40 @@ h3 {
   font-family: Inter, sans-serif;
   color: #d2d2d2;
   border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 0;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  align-items: center;
+  display: inline-block;
+  margin: 0;
+}
+
+i:hover {
+  filter: brightness(80%);
+}
+
+.summary-card ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-card ul li {
+  margin: 0 1px;
+  padding: 0%;
 }
