@@ -27,7 +27,7 @@ h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 18px;
   color: #3a4a42;
   line-height: 52px;
   display: flex;
@@ -199,6 +199,13 @@ p {
   flex-direction: column;
 }
 
+grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
 .app-wrap:first-child {
   order: 1;
 }
@@ -228,7 +235,7 @@ p {
   flex-direction: column;
   height: fit-content;
   width: 80%;
-  margin: 2rem 10%;
+  margin: 2rem 7%;
 }
 
 button {
@@ -266,7 +273,7 @@ h3 {
 .tech {
   background-color: #fff;
   margin: 5px 3px;
-  color: #3dc58c;
+  color: #36b37e;
   border-radius: 5px;
 }
 
@@ -278,10 +285,12 @@ h3 {
   padding: 0.5rem;
   margin: 1rem auto;
   font-family: Inter, sans-serif;
-  color: #d2d2d2;
+  color: #fff;
   border-radius: 5px;
   height: 45px;
   width: 150px;
+  font-weight: 500;
+  font-size: 17px;
 }
 
 i:hover {
