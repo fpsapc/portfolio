@@ -27,16 +27,17 @@ h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
+  color: #3a4a42;
   line-height: 52px;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
   width: 80%;
-  height: 35%;
+  height: 50%;
   left: 10%;
-  top: 8%;
+  top: 5%;
 }
 
 .my-name {
@@ -204,6 +205,7 @@ p {
 
 .my-work {
   order: 2;
+  display: grid;
 }
 
 .summary-card {
@@ -271,13 +273,15 @@ h3 {
 .btn2 {
   display: flex;
   justify-content: center;
-  background-color: #2aa874;
+  background-color: #36b37f;
   align-items: center;
   padding: 0.5rem;
   margin: 1rem auto;
   font-family: Inter, sans-serif;
   color: #d2d2d2;
   border-radius: 5px;
+  height: 45px;
+  width: 150px;
 }
 
 i:hover {
