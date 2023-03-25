@@ -11,10 +11,8 @@ body {
 .app-wrap {
   background-image: url('background.svg');
   background-repeat: no-repeat;
-  top: fixed;
   background-size: cover;
   padding-top: 20%;
-  height: 150%;
 }
 
 .container {
@@ -22,7 +20,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vh;
   text-align: center;
 }
 
@@ -89,7 +86,7 @@ nav a {
   width: 80%;
   height: 20%;
   justify-content: center;
-  top: 15%;
+  padding: 8%;
 }
 
 .list {
@@ -162,4 +159,36 @@ p {
     align-items: center;
     padding: 20px;
   }
+}
+
+.my-work {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#heading {
+  /* width: 100%; */
+}
+
+.work-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-top: 300px solid #d2d2d2;
+  border-radius: 20px;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-wrap:first-child {
+  order: 1;
+}
+
+.my-work {
+  order: 2;
 }
