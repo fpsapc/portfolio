@@ -11,10 +11,8 @@ body {
 .app-wrap {
   background-image: url('background.svg');
   background-repeat: no-repeat;
-  top: fixed;
   background-size: cover;
   padding-top: 20%;
-  height: 150%;
 }
 
 .container {
@@ -22,7 +20,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vh;
   text-align: center;
 }
 
@@ -30,16 +27,18 @@ h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 18px;
+  color: #3a4a42;
   line-height: 52px;
   display: flex;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   position: relative;
   width: 80%;
-  height: 35%;
+  height: 51%;
   left: 10%;
-  top: 8%;
+  top: 5%;
 }
 
 .my-name {
@@ -74,6 +73,8 @@ nav {
 
 a {
   color: #505f79;
+  text-decoration: none;
+  margin-top: 0;
 }
 
 nav a {
@@ -89,7 +90,21 @@ nav a {
   width: 80%;
   height: 20%;
   justify-content: center;
-  top: 15%;
+  padding: 8%;
+}
+
+li {
+  align-items: center;
+  display: inline-block;
+  margin: 0;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .list {
@@ -107,7 +122,6 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style: none;
   padding-top: 10%;
 }
 
@@ -162,4 +176,136 @@ p {
     align-items: center;
     padding: 20px;
   }
+}
+
+#heading {
+  width: 100%;
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.work-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-top: 300px solid #d2d2d2;
+  border-radius: 20px;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.app-wrap:first-child {
+  order: 1;
+}
+
+.my-work {
+  order: 2;
+  display: grid;
+}
+
+.summary-card {
+  display: flex;
+  background-color: #ebf0ee;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin: 1rem 1rem;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.about-me-content {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: fit-content;
+  margin: 2rem 7%;
+}
+
+button {
+  border: none;
+  padding: 0.5rem;
+  font-family: Inter, sans-serif;
+  color: #3a4a42;
+}
+
+button:hover {
+  background-color: #374e44;
+}
+
+h3 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500px;
+  line-height: 2rem;
+  text-align: center;
+  color: #172b4d;
+}
+
+.resume {
+  padding: 1rem 1rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.langs {
+  min-width: fit-content;
+  padding: 0.3rem;
+  border: none;
+  margin: 0 auto;
+}
+
+.tech {
+  background-color: #fff;
+  margin: 5px 3px;
+  color: #36b37e;
+  border-radius: 5px;
+}
+
+.btn2 {
+  display: flex;
+  justify-content: center;
+  background-color: #36b37f;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  height: 45px;
+  width: 150px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+i:hover {
+  filter: brightness(80%);
+}
+
+.summary-card ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-card ul li {
+  margin: 0 1px;
+  padding: 0%;
 }
