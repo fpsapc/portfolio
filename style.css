@@ -32,6 +32,7 @@ h2 {
   line-height: 52px;
   display: flex;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   position: relative;
   width: 80%;
@@ -234,7 +235,6 @@ p {
   text-align: center;
   flex-direction: column;
   height: fit-content;
-  width: 80%;
   margin: 2rem 7%;
 }
 
