@@ -123,6 +123,7 @@ label {
   justify-content: center;
   align-items: center;
   padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .social ul li {
@@ -251,10 +252,13 @@ button:hover {
 
 h3 {
   font-family: Poppins, sans-serif;
-  font-weight: 500px;
-  line-height: 2rem;
+  font-weight: 700px;
+  line-height: 52px;
   text-align: center;
   color: #172b4d;
+  margin: 3%;
+  font-size: 40px;
+
 }
 
 .resume {
@@ -308,4 +312,57 @@ i:hover {
 .summary-card ul li {
   margin: 0 1px;
   padding: 0%;
+}
+
+form ul li {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #60C095; 
+}
+
+.container-form input[type="text"],
+.container-form input[type="email"] {
+  border: 1px solid #d0d9d4;
+  background-color: #fff; 
+  padding: 10px; 
+  border-radius: 5px; 
+  font-family: 'Inter', sans-serif;
+  width: 300px; 
+}
+
+.container-form textarea {
+  border: 1px solid #60C095;
+  background-color: #fff; 
+  padding: 10px; 
+  border-radius: 5px; 
+  font-family: 'Inter', sans-serif;
+  width: 300px;
+}
+
+.my-mail p {
+  text-align: center !important;
+}
+
+footer {
+  background-image: url('illustration-contact-form.svg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  height: 100%;
+  position: relative;
+}
+
+footer::after {
+  content: "";
+  background-color: transparent;
+  position: absolute;
+  left: 49.58%;
+  right: 12.56%;
+  top: 58.45%;
+  bottom: -8.97%;
 }
