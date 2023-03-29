@@ -15,7 +15,8 @@ body {
   padding-top: 20%;
 }
 
-.container {
+.container,
+.container-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,6 +124,13 @@ label {
   justify-content: center;
   align-items: center;
   padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+form ul li {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
 }
 
 .social ul li {
@@ -251,10 +259,12 @@ button:hover {
 
 h3 {
   font-family: Poppins, sans-serif;
-  font-weight: 500px;
-  line-height: 2rem;
+  font-weight: 700px;
+  line-height: 52px;
   text-align: center;
   color: #172b4d;
+  margin: 3%;
+  font-size: 40px;
 }
 
 .resume {
@@ -291,6 +301,11 @@ h3 {
   width: 150px;
   font-weight: 500;
   font-size: 17px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn2:active {
+  background-color: #008552;
 }
 
 i:hover {
@@ -308,4 +323,69 @@ i:hover {
 .summary-card ul li {
   margin: 0 1px;
   padding: 0%;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #60c095;
+}
+
+.container-form input[type="text"],
+.container-form input[type="email"] {
+  border: 1px solid #d0d9d4;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  width: 300px;
+}
+
+.container-form textarea {
+  border: 1px solid #60c095;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  width: 300px;
+}
+
+.my-mail p {
+  text-align: center !important;
+}
+
+footer {
+  background-image: url('illustration-contact-form.svg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  height: 100%;
+  position: relative;
+}
+
+footer::after {
+  content: "";
+  background-color: transparent;
+  position: absolute;
+  left: 49.58%;
+  right: 12.56%;
+  top: 58.45%;
+  bottom: -8.97%;
+}
+
+.line {
+  width: 50%;
+  height: 8px;
+  background-color: black;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.intro-form h3 {
+  padding-top: 12%;
+  padding-bottom: 10%;
+}
+
+footer .social ul li {
+  height: 30px;
+  margin: 0 5px;
 }

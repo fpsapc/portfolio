@@ -7,7 +7,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -36,7 +35,6 @@
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS3</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript</a></li>
   </ul>
 </details>
 
@@ -44,9 +42,6 @@
 
 - **Responsive Design.**
 - **Single page app.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,6 +124,7 @@ You can deploy this project using: GitHub Pages,
 
 - [ ] **add web responsive app**
 - [ ] **Add more pages.**
+- [ ] **Add animations.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
