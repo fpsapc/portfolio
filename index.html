@@ -202,16 +202,16 @@
             <form action="https://formspree.io/f/xlekprnl" method="post">
                 <ul>
                     <li>
-                        <input type="text" id="name" name="user_name" placeholder="Full name"/>
+                        <input type="text" maxlength="30" id="name" name="user_name" placeholder="Full name" required/>
                     </li>
                     <li>
-                        <input type="email" id="mail" name="user-email" placeholder="Email address"/>
+                        <input type="email" id="mail" name="user-email" placeholder="Email address" required/>
                     </li>
                     <li>
-                        <textarea name="user-message" id="msg" cols="30" rows="10" placeholder="Hey I’d like to connect to..."></textarea>
+                        <textarea name="user-message" maxlength="500" id="msg" cols="50" rows="5" placeholder="Hey I’d like to connect to..." required></textarea>
                     </li>
                     <li>
-                        <button class="btn2">Get in touch</button>
+                        <button class="btn2" type="submit">Get in touch</button>
                     </li>
 
                 </ul>
@@ -233,6 +233,7 @@
             <li><a href="#"><i class="fa-solid fa-m fa-xl"></i></a></li>
         </ul>
     </section>
+    <div class="line"></div>
 </footer>
 </body>
 </html>

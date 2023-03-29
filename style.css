@@ -301,6 +301,11 @@ h3 {
   width: 150px;
   font-weight: 500;
   font-size: 17px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn2:active {
+  background-color: #008552;
 }
 
 i:hover {
@@ -325,15 +330,7 @@ textarea:focus {
   box-shadow: 0 0 5px #60c095;
 }
 
-.container-form input[type="text"] {
-  border: 1px solid #d0d9d4;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  font-family: 'Inter', sans-serif;
-  width: 300px;
-}
-
+.container-form input[type="text"],
 .container-form input[type="email"] {
   border: 1px solid #d0d9d4;
   background-color: #fff;
@@ -373,4 +370,22 @@ footer::after {
   right: 12.56%;
   top: 58.45%;
   bottom: -8.97%;
+}
+
+.line {
+  width: 50%;
+  height: 8px;
+  background-color: black;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.intro-form h3 {
+  padding-top: 12%;
+  padding-bottom: 10%;
+}
+
+footer .social ul li {
+  height: 30px;
+  margin: 0 5px;
 }
