@@ -36,7 +36,6 @@
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS3</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript</a></li>
   </ul>
 </details>
 
@@ -129,6 +128,7 @@ You can deploy this project using: GitHub Pages,
 
 - [ ] **add web responsive app**
 - [ ] **Add more pages.**
+- [ ] **Add animations.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
